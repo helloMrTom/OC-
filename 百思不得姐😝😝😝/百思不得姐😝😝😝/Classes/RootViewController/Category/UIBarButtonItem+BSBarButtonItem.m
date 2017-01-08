@@ -17,6 +17,7 @@
     [button setImage:[UIImage imageNamed:highImage] forState:UIControlStateHighlighted];
     [button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
     [button sizeToFit];
+    
     return [[self alloc] initWithCustomView:button];
 }
 

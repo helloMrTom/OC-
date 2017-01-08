@@ -28,6 +28,7 @@
 		524530E31E1E456D00750A8B /* BSFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524530E21E1E456D00750A8B /* BSFollowViewController.m */; };
 		524530E71E1E457D00750A8B /* BSMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524530E61E1E457D00750A8B /* BSMyViewController.m */; };
 		52781CA21E1E7C5E003DBF44 /* BSLoginAndRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52781CA11E1E7C5E003DBF44 /* BSLoginAndRegisterViewController.xib */; };
+		52781CA61E1EAA69003DBF44 /* BSLoginAngRegisterTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 52781CA51E1EAA69003DBF44 /* BSLoginAngRegisterTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,8 @@
 		524530E51E1E457D00750A8B /* BSMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMyViewController.h; sourceTree = "<group>"; };
 		524530E61E1E457D00750A8B /* BSMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMyViewController.m; sourceTree = "<group>"; };
 		52781CA11E1E7C5E003DBF44 /* BSLoginAndRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSLoginAndRegisterViewController.xib; sourceTree = "<group>"; };
+		52781CA41E1EAA69003DBF44 /* BSLoginAngRegisterTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLoginAngRegisterTextField.h; sourceTree = "<group>"; };
+		52781CA51E1EAA69003DBF44 /* BSLoginAngRegisterTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLoginAngRegisterTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -280,6 +283,7 @@
 				5216AE5A1E1DE63300F6577C /* BSLoginAndRegisterViewController.h */,
 				5216AE5B1E1DE63300F6577C /* BSLoginAndRegisterViewController.m */,
 				52781CA11E1E7C5E003DBF44 /* BSLoginAndRegisterViewController.xib */,
+				52781CA31E1EAA3D003DBF44 /* BSLoginAngRegisterTextField */,
 			);
 			name = LoginAndRegisterViewController;
 			path = Classes/RootViewController/LoginAndRegisterViewController;
@@ -384,6 +388,15 @@
 			name = Controller;
 			path = "百思不得姐😝😝😝/Classes/RootViewController/Me-我/Controller";
 			sourceTree = SOURCE_ROOT;
+		};
+		52781CA31E1EAA3D003DBF44 /* BSLoginAngRegisterTextField */ = {
+			isa = PBXGroup;
+			children = (
+				52781CA41E1EAA69003DBF44 /* BSLoginAngRegisterTextField.h */,
+				52781CA51E1EAA69003DBF44 /* BSLoginAngRegisterTextField.m */,
+			);
+			path = BSLoginAngRegisterTextField;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -533,6 +546,7 @@
 				524530E71E1E457D00750A8B /* BSMyViewController.m in Sources */,
 				5216AE501E1D624B00F6577C /* BSNavigationViewController.m in Sources */,
 				5216AE221E1D24F700F6577C /* AppDelegate.m in Sources */,
+				52781CA61E1EAA69003DBF44 /* BSLoginAngRegisterTextField.m in Sources */,
 				5216AE391E1D26E600F6577C /* UIView+BSExtension.m in Sources */,
 				5216AE5D1E1DE63300F6577C /* BSLoginAndRegisterViewController.m in Sources */,
 				5216AE641E1E218F00F6577C /* BSQuicklyLoginBut.m in Sources */,
@@ -670,7 +684,7 @@
 				GCC_PREFIX_HEADER = "/Users/macbookpro/Desktop/百思不得姐姐😁/OC-/百思不得姐😝😝😝/百思不得姐😝😝😝/Classes/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐😝😝😝/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MacBook;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MacBook.---------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -684,7 +698,7 @@
 				GCC_PREFIX_HEADER = "/Users/macbookpro/Desktop/百思不得姐姐😁/OC-/百思不得姐😝😝😝/百思不得姐😝😝😝/Classes/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐😝😝😝/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MacBook;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MacBook.---------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
